@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabla</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/LogicaTabla.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/EstiloTabla.css">
+	<link rel="stylesheet" type="text/css" href="style/jquery-ui.min.css">
+</head>
+<body>
+	<div class="tabla_reto2 tabla_container">
+		<table class="tabla_reto reto2">
+		  <tr>
+		    <th></th>
+		    <th>Criterios disponibles para la evaluación de proveedores</th>
+		    <th>¿Cuáles se seleccionan?</th>
+		    <th>¿Cuánto peso relativo le asigna?</th>
+		  </tr>
+		  <tr>
+		    <td>A</td>
+		    <td>Aforo del auditorio del evento</td>
+		    <td data-selected=false data-preg=1>No?</td>
+		    <td data-preg=1><input type="Text" name="resp1" readonly></td>
+		  </tr>
+		  <tr>
+		    <td>B</td>
+		    <td>Áreas de registro</td>
+		    <td data-selected=false data-preg=2>No?</td>
+		    <td data-preg=2><input type="Text" name="resp2" readonly></td>
+		  </tr>
+		  <tr>
+		    <td>C</td>
+		    <td>Servicio de comida y refrigerio</td>
+		    <td data-selected=false data-preg=3>No?</td>
+		    <td data-preg=3><input type="Text" name="resp3" readonly></td>
+		  </tr>
+		  <tr>
+		    <td>D</td>
+		    <td>Servicio de parqueadero</td>
+		    <td data-selected=false data-preg=4>No?</td>
+		    <td data-preg=4><input type="Text" name="resp4" readonly></td>
+		  </tr>
+		  <tr>
+		    <td>E</td>
+		    <td>Kit para asistentes</td>
+		    <td data-selected=false data-preg=5>No?</td>
+		    <td data-preg=5><input type="Text" name="resp5" readonly></td>
+		  </tr>
+		  <tr>
+		    <td>F</td>
+		    <td>Alquiler de instalaciones</td>
+		    <td data-selected=false data-preg=6>No?</td>
+		    <td data-preg=6><input type="Text" name="resp6" readonly></td>
+		  </tr>
+		  <tr>
+		    <td>G</td>
+		    <td>Acceso al sitio</td>
+		    <td data-selected=false data-preg=7>No?</td>
+		    <td data-preg=7><input type="Text" name="resp7" readonly></td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td>Total</td>
+		    <td></td>
+		    <td class="totalSuma">100</td>
+		  </tr>
+		</table>
+	</div>
+</body>
+</html>

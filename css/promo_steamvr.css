@@ -1,0 +1,3352 @@
+
+.responsive_page_content {
+	background-color: #B0C9DC ;
+}
+
+body.v6 .page_content_ctn .page_content {
+	width: 1280px;
+}
+
+.steamvr section
+{
+	background-color: #ffffff;
+	padding: 10px 10px;
+}
+
+.steamvr section.noborder
+{
+	padding: 0px 0px;
+}
+
+.steamvr section #mainvideosection.sectioncontent
+{
+	position: relative;
+
+	height: 723px;
+}
+
+.steamvr section #mainvideosection .mainvideo
+{
+	width: 1280px;
+	height: 720px;
+}
+
+.steamvr section #mainvideosection .info
+{
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/mainvideo_info.png' );
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	position: absolute;
+
+	width: 32px;
+	height: 32px;
+
+	right: 16px;
+	bottom: 16px;
+
+	cursor: pointer;
+}
+
+.steamvr section #mainvideosection .gamespopup
+{
+	position: absolute;
+	width: 320px;
+	height: 420px;
+
+	right: 16px;
+	bottom: 64px;
+
+	background-color: #282723;
+
+	border-radius: 10px;
+	pointer-events:none;
+
+	padding: 20px;
+
+	opacity: 0;
+
+   transition: opacity 0.25s;
+   -moz-transition: opacity 0.25s;
+   -webkit-transition: opacity 0.25s;	
+}
+
+.steamvr section #mainvideosection.showgamespopup .gamespopup
+{
+	opacity: 1;
+	pointer-events:auto;
+}
+
+.steamvr section #mainvideosection .gamespopup .close
+{
+	position: absolute;
+
+	top: 10px;
+	right: 10px;
+
+	color: #DDDDDD;
+
+	cursor: pointer;
+
+	font-size: 14px;
+}
+
+.steamvr section #mainvideosection .gamespopup .header
+{
+	position: relative;
+
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+	color: #FFFFFF;
+
+	padding-bottom: 10px;
+
+	width: 100%;
+}
+
+.steamvr section #mainvideosection .gamespopup .subheader,
+.steamvr section #mainvideosection .gamespopup .gameslistheader
+{
+	position: relative;
+
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	color: #DDDDDD;
+
+
+	width: 100%;
+}
+
+.steamvr section #mainvideosection .gamespopup .subheader
+{
+	padding-bottom: 20px;
+}
+
+.steamvr section #mainvideosection .gamespopup a
+{
+	text-decoration: underline;
+}
+
+
+.steamvr section #mainvideosection .gameslist
+{
+	width: 100%;
+	height: 340px;
+	overflow-y: scroll;
+
+	border-bottom: 1px solid #444444;
+}
+
+.steamvr section #mainvideosection .gamerow
+{
+	position: relative;
+	width: 100%;
+	height: 12px;
+	margin: 8px 0px;
+
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	color: #DDDDDD;
+}
+
+.steamvr section #mainvideosection .gameslist .name
+{
+	position: absolute;
+	left: 0;
+}
+
+.steamvr section #mainvideosection .gameslist .web
+{
+	position: absolute;
+	right: 100px;
+}
+
+.steamvr section #mainvideosection .gameslist .steam
+{
+	position: absolute;
+	right: 20px;
+}
+
+
+.steamvr section #mainvideosection .gameslist::-webkit-scrollbar-track
+{
+	background-color: #282723;
+}
+
+.steamvr section #mainvideosection .gameslist::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #282723;
+}
+
+.steamvr section #mainvideosection .gameslist::-webkit-scrollbar-thumb
+{
+	background-color: #666666;
+}
+
+.steamvr section #mainvideosection .linkicon
+{
+	position: absolute;
+
+	width: 48px;
+	height: 48px;
+
+	bottom: 14px;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.steamvr section #mainvideosection .linkicon.youtube
+{
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/mainvideo_youtube.png' );
+	left: 60px;
+}
+
+.steamvr section #mainvideosection .linkicon.facebook
+{
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/mainvideo_facebook.png' );
+	left: 160px;
+}
+
+.steamvr section #mainvideosection .linkicon.twitter
+{
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/mainvideo_twitter.png' );
+	left: 260px;
+}
+
+.steamvr section #videosection.sectioncontent
+{
+	background: #C8E9F8;
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(108,168,226,1) 25%, rgba(41,170,227,1) 85%, rgba(98,94,117,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1) 0%), color-stop(5%, rgba(255,255,255,1)), color-stop(25%, rgba(108,168,226,1)), color-stop(85%, rgba(108,168,226,1)), color-stop(100%, rgba(98,94,117,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(108,168,226,1) 25%, rgba(108,168,226,1) 85%, rgba(98,94,117,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(108,168,226,1) 25%, rgba(108,168,226,1) 85%, rgba(98,94,117,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(108,168,226,1) 25%, rgba(108,168,226,1) 85%, rgba(98,94,117,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(108,168,226,1) 25%, rgba(108,168,226,1) 85%, rgba(98,94,117,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='##29AAE3', GradientType=0 );
+
+	height: 4340px;
+}
+
+
+.steamvr section #videosection .buttonbar 
+{
+	width: 1200px;
+	height: 40px;
+
+	padding: 40px 10px 12px 10px;
+	margin: 0px auto;
+}
+
+.steamvr section #videosection .buttonbar.secondary
+{
+	padding-left: 825px;
+	padding-top: 0px;
+}
+
+.steamvr section #videosection .button
+{
+	background: #6CA8E2;
+	color: white;
+	text-transform: uppercase;
+
+	color: #ffffff;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+
+	float: left;
+	width: 175px;
+	margin: 0px 12px;
+
+	padding-left: 0px;
+	padding-right: 0px;
+
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+
+	cursor: pointer;	
+}
+
+.steamvr section #videosection .buttonbar .button:hover
+{
+	background: #365d7e;
+}
+
+.steamvr section #videosection .buttonbar.secondary .button
+{
+	background: #444444;
+}
+
+
+html.touch .steamvr section #videosection .buttonbar .button:hover
+{
+	background: #6CA8E2;
+}
+
+
+.steamvr section #videosection .videocontainer
+{
+	position: relative;
+	background: black;
+
+	margin: 20px auto 10px auto;
+
+	width: 920px;
+	height: 518px;
+}
+
+.steamvr section #videosection .videocontainer .videopanel
+{
+	top: 0px;
+	left: 0px;
+
+	width: 920px;
+	height: 518px;
+}
+
+.steamvr section .sectiontitle
+{
+	color: black;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 200; /* thin */
+
+		}
+
+.steamvr section #videosection .videooverlaytext
+{
+	position: absolute;
+
+	top: 50%;
+	transform: translateY(-50%);
+
+	left: 135px;
+	width: 650px;
+
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 80px;
+	letter-spacing: 6px;
+	font-weight: 100;
+	text-shadow: 1px 1px black;
+	pointer-events:none;
+
+   transition: opacity 1.5s ease-out;
+   -moz-transition: opacity 1.5s ease-out;
+   -webkit-transition: opacity 1.5s ease-out;	
+
+    -webkit-transition-delay: 3s;
+    transition-delay: 3s;
+}
+
+.steamvr section #videosection .videooverlay
+{
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+	top: 0;
+
+   transition: opacity 3s ease-out;
+   -moz-transition: opacity 3s ease-out;
+   -webkit-transition: opacity 3s ease-out;	
+
+	pointer-events:none;
+
+	background-color: black;
+	opacity: 1;
+}
+
+.steamvr section #videosection .playingvideo .videooverlay,
+.steamvr section #videosection .playingvideo .videooverlaytext
+{
+	opacity: 0;
+}
+
+.steamvr section #videosection .videofooter
+{
+	width: 920px;
+	margin: 10px auto 120px auto;
+}
+
+.steamvr section #videosection .gamevideotitle
+{
+	float: right;
+
+	margin-top: 8px;
+	margin-right: 10px;
+
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.steamvr section #videosection .circlesteam
+{
+	float: right;
+
+	width: 32px;
+	height: 32px;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/steamcircle.png' );
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.steamvr section #videosection .videosectionfooter 
+{
+	margin: 10px auto;
+	width: 460px;
+
+	color: rgba(153,203,250,1);
+	text-transform: none;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: none;
+
+	//text-shadow: 1px 1px #625E76;
+}
+
+.steamvr section #videosection .videosectionfooterbutton .button
+{
+	position: relative;
+
+	background: #6CA8E2;
+	color: white;
+	text-transform: uppercase;
+
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 400px;
+
+	padding-right: 20px;
+
+	margin: 40px auto;
+}
+
+.steamvr section #videosection .videosectionfooterbutton .button:hover
+{
+	background: #365d7e;
+}
+
+html.touch .steamvr section #videosection .videosectionfooterbutton .button:hover
+{
+	background: #6CA8E2;
+}
+
+.steamvr section #videosection .popoutbutton
+{
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/popout.png' );
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	width: 16px;
+	height: 16px;
+
+	float: right;
+}
+
+/* 
+
+HOW IT WORKS
+
+*/
+
+.steamvr section #howitworks.sectioncontent
+{
+	position: relative;
+
+	background-color: #FFFFFF;
+	height: 790px;
+	margin: 0px auto;
+}
+
+.steamvr section #howitworks .switchimagecontainer
+{
+	position: absolute;
+
+	width: 900px;
+	height: 576px;
+
+	margin-left: 30px;
+}
+
+
+.steamvr section #howitworks .image
+{
+	position: absolute;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	width: 900px;
+	height: 576px;
+
+	margin: 0px auto;
+	opacity: 0;
+
+	left: 0px;
+
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;	
+}
+
+.steamvr section #howitworks .image.frame1 { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_tracking.png' ); }
+.steamvr section #howitworks .image.frame2 { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_roomscale.png' ); }
+.steamvr section #howitworks .image.frame3 { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_chaperone.png' ); }
+.steamvr section #howitworks .image.frame4 { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_steamui.png' ); }
+.steamvr section #howitworks .image.frame5 { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_ingame.png' ); }
+
+.steamvr #howitworks.showframe1pre .image.frame1,
+.steamvr #howitworks.showframe1 .image.frame1,
+.steamvr #howitworks.showframe2 .image.frame2,
+.steamvr #howitworks.showframe3 .image.frame3,
+.steamvr #howitworks.showframe4 .image.frame4,
+.steamvr #howitworks.showframe5 .image.frame5
+{
+	opacity: 1;
+}
+
+.steamvr section #howitworks .circlescontainer
+{
+	position: absolute;
+	top: 160px;
+	left: 900px;
+
+	width: 320px;
+	height: 576px;
+}
+
+.steamvr section #howitworks .circlescontainer .arrow
+{
+	visibility: collapse;
+}
+
+.steamvr section #howitworks .circlecontainer
+{
+	position: absolute;
+
+	left: 150px;
+
+	width: 32px;
+	height: 32px;
+
+	cursor: pointer;
+
+	transition: top .25s ease-in-out;
+	-moz-transition: top .25s ease-in-out;
+	-webkit-transition: top .25s ease-in-out;	
+
+   	z-index: 1;
+}
+
+.steamvr section #howitworks .circle 
+{ 
+	position: absolute;
+
+	width: 32px;
+	height: 32px;
+
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 50%;
+
+    cursor: pointer;
+
+	margin: 0px auto;
+
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;	
+}
+
+.steamvr section #howitworks .circle.empty 
+{ 
+	opacity: 1; 
+
+	width: 28px;
+	height: 28px;
+
+	border: 2px solid #6ca8e2;
+	border-radius: 50%; 
+}
+
+.steamvr section #howitworks .circle.filled 
+{ 
+	opacity: 0; 
+
+	background-color: #6ca8e2;
+}
+
+
+.steamvr section #howitworks.showframe1pre .circlecontainer.frame1,
+.steamvr section #howitworks.showframe1 .circlecontainer.frame1,
+.steamvr section #howitworks.showframe2 .circlecontainer.frame1,
+.steamvr section #howitworks.showframe3 .circlecontainer.frame1,
+.steamvr section #howitworks.showframe4 .circlecontainer.frame1,
+.steamvr section #howitworks.showframe5 .circlecontainer.frame1
+{
+	top: 0px;
+}
+
+.steamvr section #howitworks.showframe1pre .circlecontainer.frame2,
+.steamvr section #howitworks.showframe1 .circlecontainer.frame2
+{
+	top: 260px;
+}
+
+.steamvr section #howitworks.showframe2 .circlecontainer.frame2,
+.steamvr section #howitworks.showframe3 .circlecontainer.frame2,
+.steamvr section #howitworks.showframe4 .circlecontainer.frame2,
+.steamvr section #howitworks.showframe5 .circlecontainer.frame2
+{
+	top: 60px;
+}
+
+.steamvr section #howitworks.showframe1pre .circlecontainer.frame3,
+.steamvr section #howitworks.showframe1 .circlecontainer.frame3,
+.steamvr section #howitworks.showframe2 .circlecontainer.frame3
+{
+	top: 320px;
+}
+
+.steamvr section #howitworks.showframe3 .circlecontainer.frame3,
+.steamvr section #howitworks.showframe4 .circlecontainer.frame3,
+.steamvr section #howitworks.showframe5 .circlecontainer.frame3
+{
+	top: 120px;
+}
+
+.steamvr section #howitworks.showframe1pre .circlecontainer.frame4,
+.steamvr section #howitworks.showframe1 .circlecontainer.frame4,
+.steamvr section #howitworks.showframe2 .circlecontainer.frame4,
+.steamvr section #howitworks.showframe3 .circlecontainer.frame4
+{
+	top: 380px;
+}
+
+.steamvr section #howitworks.showframe4 .circlecontainer.frame4,
+.steamvr section #howitworks.showframe5 .circlecontainer.frame4
+{
+	top: 180px;
+}
+
+.steamvr section #howitworks.showframe1pre .circlecontainer.frame5,
+.steamvr section #howitworks.showframe1 .circlecontainer.frame5,
+.steamvr section #howitworks.showframe2 .circlecontainer.frame5,
+.steamvr section #howitworks.showframe3 .circlecontainer.frame5,
+.steamvr section #howitworks.showframe4 .circlecontainer.frame5
+{
+	top: 440px;
+}
+
+.steamvr section #howitworks.showframe5 .circlecontainer.frame5
+{
+	top: 240px;
+}
+
+
+.steamvr section #howitworks.showframe1pre	.frame1 .circle.empty,
+.steamvr section #howitworks.showframe1	.frame1 .circle.empty,
+.steamvr section #howitworks.showframe2 .frame2 .circle.empty,
+.steamvr section #howitworks.showframe3 .frame3 .circle.empty,
+.steamvr section #howitworks.showframe4 .frame4 .circle.empty,
+.steamvr section #howitworks.showframe5 .frame5 .circle.empty
+{
+	opacity: 0
+}
+
+.steamvr section #howitworks.showframe1pre .frame1 .circle.filled,
+.steamvr section #howitworks.showframe1 .frame1 .circle.filled,
+.steamvr section #howitworks.showframe2 .frame2 .circle.filled,
+.steamvr section #howitworks.showframe3 .frame3 .circle.filled,
+.steamvr section #howitworks.showframe4 .frame4 .circle.filled,
+.steamvr section #howitworks.showframe5 .frame5 .circle.filled
+{
+	opacity: 1;
+}
+
+
+.steamvr section #howitworks .captioncontainer
+{
+	position: absolute;
+
+	width: 260px;
+	height: 210px;
+
+	left: 40px;
+
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;	
+
+	opacity: 0;
+}
+
+
+.steamvr section #howitworks .caption
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+
+	width: 100%;
+
+	color: #000000;
+	text-align: center;
+}
+
+.steamvr section #howitworks.showframe1pre .captioncontainer.frame1,
+.steamvr section #howitworks.showframe1 .captioncontainer.frame1,
+.steamvr section #howitworks.showframe2 .captioncontainer.frame2,
+.steamvr section #howitworks.showframe3 .captioncontainer.frame3,
+.steamvr section #howitworks.showframe4 .captioncontainer.frame4,
+.steamvr section #howitworks.showframe5 .captioncontainer.frame5
+{
+	opacity: 1;
+}
+
+.steamvr section #howitworks .captioncontainer.frame1 { top: 40px; }
+.steamvr section #howitworks .captioncontainer.frame2 { top: 100px; }
+.steamvr section #howitworks .captioncontainer.frame3 { top: 160px; }
+.steamvr section #howitworks .captioncontainer.frame4 { top: 220px; }
+.steamvr section #howitworks .captioncontainer.frame5 { top: 280px; }
+
+/*-------------
+
+WHY IT MATTERS
+TOUCH
+
+-------------*/
+
+html.touch .steamvr section #howitworks .image
+{
+	width: 1050px;
+	height: 600px;
+
+	margin: 0px auto;
+	opacity: 0;
+
+	left: 80px;		
+}
+
+html.touch .steamvr section #howitworks .sectiontitle
+{
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+html.touch .steamvr section #howitworks .circlescontainer
+{
+	width: 900px;
+	height: 40px;
+
+	top: 680px;
+	left: 360px;
+}
+
+html.touch .steamvr section #howitworks .circlescontainer .arrow
+{
+	position: absolute;
+
+	visibility: visible;
+
+	width: 32px;
+	height: 32px;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_arrow_hollow.png' );
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+html.touch .steamvr section #howitworks .circlescontainer .arrow:active
+{
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_arrow.png' );
+}
+
+html.touch .steamvr section #howitworks .circlescontainer .arrow.left
+{
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+html.touch .steamvr section #howitworks .circlescontainer .arrow.left
+{
+	left: 20px;
+}
+
+html.touch .steamvr section #howitworks .circlescontainer .arrow.right
+{
+	left: 460px;
+}
+
+
+html.touch .steamvr section #howitworks .circlescontainer .circlecontainer
+{
+	top: 0px;
+}
+
+html.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame1
+{
+	left: 80px;
+}
+html.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame2
+{
+	left: 160px;
+}
+html.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame3
+{
+	left: 240px;
+}
+html.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame4
+{
+	left: 320px;
+}
+html.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame5
+{
+	left: 400px;
+}
+
+
+html.touch .steamvr section #howitworks .captioncontainer
+{
+	top: 60px;
+	left: -140px;
+
+	width: 880px;
+	height: 40px;
+}
+
+html.touch .steamvr section #howitworks .caption
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*-------------
+
+WHY IT MATTERS
+
+-------------*/
+
+.steamvr section #whyitmatters.sectioncontent
+{
+	position: relative;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_bg.png' );
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	height: 840px;
+
+	overflow: hidden;
+}
+
+
+.steamvr section #whyitmatters .quote
+{
+	position: absolute;
+
+	width: 556px;
+	height: 121px;
+
+	top: 110px;
+	left: 360px;
+
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_lincoln_quote.png' );
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	transition: opacity .5 ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+
+    -webkit-transition-delay: 1.0s;
+	transition-delay: 1.0s;
+
+	opacity: 0;
+}
+
+.steamvr section #whyitmatters.whiteboarddown .quote
+{
+	opacity: 1;
+}
+
+.steamvr section #whyitmatters .dots
+{
+	position: absolute;
+
+	width: 540px;
+	height: 6px;
+
+	top: 512px;
+	left: 140px;
+
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_board_dots.png' );
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	transition: opacity .5 ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+
+    -webkit-transition-delay: 1.0s;
+	transition-delay: 1.0s;
+
+	opacity: 0;
+}
+
+.steamvr section #whyitmatters.whiteboarddown .dots
+{
+	opacity: 1;
+}
+
+.steamvr section #whyitmatters .bendy
+{
+	position: absolute;
+
+	top: 550px;
+	left: 500px;
+	margin-left: 890px;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_bendy.png' );
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	width: 280px;
+	height: 291px;
+
+	transition: left .5 ease-in-out;
+	-moz-transition: left .5s ease-in-out;
+	-webkit-transition: left .5s ease-in-out;
+
+    -webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+
+}
+
+.steamvr section #whyitmatters.whiteboarddown .bendy
+{
+	left: 0;
+}
+
+
+.steamvr section #whyitmatters .whiteboard
+{
+	position: absolute;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_board.png' );
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+
+	top: -770px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+	width: 800px;
+	height: 770px;
+
+	transition: top 1.0s ease-in-out;
+	-moz-transition: top 1.0s ease-in-out;
+	-webkit-transition: top 1.0ss ease-in-out;	
+}
+
+.steamvr section #whyitmatters.whiteboarddown .whiteboard
+{
+	top: 0px;
+}
+
+
+.steamvr section #whyitmatters .whiteboard .header
+{
+	position: relative;
+	width: 549px;
+	height: 151px;
+
+	top: 270px;
+	margin: 0px auto;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_boardcontent_top.png' );
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.steamvr section #whyitmatters .whiteboard .element
+{
+	position: absolute;
+
+	top: 450px;
+
+	width: 260px;
+	height: 200px;
+
+
+	background-size: contain;
+	background-repeat: no-repeat;
+
+   transition: opacity .5 ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;	
+
+	opacity: 0;
+}
+
+.steamvr section #whyitmatters .whiteboard .element1
+{
+	left: 40px;
+
+    -webkit-transition-delay: 1.0s;
+    transition-delay: 1.0s;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_boardcontent01.png' );
+}
+
+.steamvr section #whyitmatters .whiteboard .element2
+{
+	left: 280px;
+
+    -webkit-transition-delay: 1.1s;
+    transition-delay: 1.1s;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_boardcontent02.png' );
+}
+
+.steamvr section #whyitmatters .whiteboard .element3
+{
+	left: 420px;
+
+    -webkit-transition-delay: 1.2s;
+    transition-delay: 1.2s;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_boardcontent03.png' );
+}
+
+.steamvr section #whyitmatters .whiteboard .element4
+{
+	width: 300px;
+	height: 200px;
+
+	left: 555px;
+
+    -webkit-transition-delay: 1.3s;
+    transition-delay: 1.3s;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/whyitmatters_boardcontent04.png' );
+}
+
+.steamvr section #whyitmatters.whiteboarddown .whiteboard .element
+{
+	opacity: 1;
+}
+
+
+/*-------------
+
+WHY IT MATTERS 
+TOUCH
+
+-------------*/
+
+html.touch .steamvr section #whyitmatters .quote
+{
+	opacity: 1;
+}
+
+html.touch .steamvr section #whyitmatters .whiteboard
+{
+	top: 0px;
+}
+
+html.touch .steamvr section #whyitmatters .bendy
+{
+	left: 0px;
+	margin-left: 900px;
+}
+
+html.touch .steamvr section #whyitmatters .whiteboard .element
+{
+	opacity: 1;
+}
+
+/*------------- 
+
+STEAM
+
+-------------*/
+
+.steamvr section #steam
+{
+	height: 790px;
+}
+
+.steamvr section #steam .video1
+{
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/steam01.png' );
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	width: 744px;
+	height: 420px;
+
+	margin: 0px auto;
+}
+
+.steamvr section #steam 
+{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+
+	text-transform: uppercase;
+}
+
+.steamvr section #steam .videopanel
+{
+	width: 960px;
+	height: 540px;
+
+	margin: 0px auto;
+}
+
+
+.steamvr section #steam .footer
+{
+	margin: 10px auto;
+	width: 460px;
+
+	padding-top: 20px;
+
+	color: rgba(153,203,250,1);
+	text-transform: none;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: none;
+}
+
+
+/*-------------
+
+WHAT YOU NEED
+
+-------------*/
+
+.steamvr section #whatyouneed
+{    
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.steamvr section #whatyouneed.sectioncontent
+{
+	position: relative;
+
+	background: linear-gradient(to bottom, #6CA8E2 0%, #6CA8E2 65%, #70B6A3 100%);
+	height: 790px;
+}
+
+.steamvr section #whatyouneed .sectiontitle
+{
+	color: #FFFFFF;
+}
+
+.steamvr section #whatyouneed .scrollcontainer
+{
+	position: absolute;
+
+	width: 500px;
+	height: 400px;
+}
+
+.steamvr section #whatyouneed .scrollcontainer.left
+{
+	left: 130px;
+}
+
+.steamvr section #whatyouneed .scrollcontainer.right
+{
+	left: 630px;
+}
+
+.steamvr section #whatyouneed .scrollingimage
+{
+	position: absolute;
+
+	top: -10px;
+	left: 0px;
+	width: 420px;
+	height: 420px;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;	
+
+	opacity: 0;
+}
+
+
+.steamvr section #whatyouneed .scrollingimage.scrollon
+{
+	opacity: 1;
+}
+
+.steamvr section #whatyouneed .scrollingimage.scrollbottom
+{
+	opacity: 0;
+}
+
+.steamvr section #whatyouneed .scrollingimage.computer { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_big_computer.png' ); }
+.steamvr section #whatyouneed .scrollingimage.room { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_big_room.png' ); }
+.steamvr section #whatyouneed .scrollingimage.headset { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_big_headset.png' ); }
+.steamvr section #whatyouneed .scrollingimage.input { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_big_input.png' ); }
+.steamvr section #whatyouneed .scrollingimage.tracking { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_big_tracking.png' ); }
+.steamvr section #whatyouneed .scrollingimage.head { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_big_head.png' ); }
+.steamvr section #whatyouneed .scrollingimage.hands { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_big_hands.png' ); }
+
+.steamvr section #whatyouneed .scrollingimage.computer
+{
+	margin-top: 50px;
+	height: 260px;
+}
+
+.steamvr section #whatyouneed .scrollingimage.room,
+.steamvr section #whatyouneed .scrollingimage.hands,
+.steamvr section #whatyouneed .scrollingimage.head
+{
+	margin-top: 30px;
+	height: 300px;
+}
+
+.steamvr section #whatyouneed .verticalline
+{
+	position: absolute;
+
+	left: 630px;
+
+	width: 1px;
+	height: 300px;
+	border-left: 1px solid #FFFFFF;
+}
+
+.steamvr section #whatyouneed .scrollingtitle
+{
+	position: absolute;
+
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 200; /* thin */
+
+			font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #FFFFFF;
+
+	top: 40px;
+	left: 30px;
+	width: 300px;
+	margin: 0px auto;
+
+	text-align: center;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;	
+
+	opacity: 0;
+}
+
+.steamvr section #whatyouneed .scrollingtitle.scrollon
+{
+	top: 140px;
+	opacity: 1;
+}
+
+.steamvr section #whatyouneed .scrollingtitle.scrollbottom
+{
+	top: 240px;
+	opacity: 0;
+}
+
+.steamvr section #whatyouneed .circles
+{
+	position: absolute;
+
+	width: 800px;
+	height: 120px;
+
+	left: 230px;
+	top: 500px;
+
+	margin: 0px auto;
+}
+
+.steamvr section #whatyouneed .circlecontainer
+{
+	position: relative;
+	display: inline-block;
+
+	width: 68px;
+	height: 100px;
+
+	cursor: pointer;
+
+	margin: 10px 13.5px;
+}
+
+.steamvr section #whatyouneed .arrow
+{
+	visibility: collapse;
+
+	position: relative;
+	display: inline-block;
+
+	width: 52px;
+	height: 64px;
+
+	margin-bottom: 42px;
+
+	cursor: pointer;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_arrow_hollow.png' );
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.steamvr section #whatyouneed .arrow:active
+{
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_arrow.png' );
+}
+
+.steamvr section #whatyouneed .arrow.left
+{
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+
+.steamvr section #whatyouneed .circle
+{
+	position: absolute;
+
+	width: 68px;
+	height: 68px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;	
+
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;	
+}
+
+.steamvr section #whatyouneed .circle.normal
+{
+	width: 66px;
+	height: 66px;
+
+	border: 1px solid #FFFFFF;
+
+	background-color: #6ca8e2;
+}
+
+.steamvr section #whatyouneed .rift .circle.normal 
+{
+	width: 68px;
+	height: 68px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;		
+
+    border: none;
+
+	background-color: #395DB2;
+}
+
+.steamvr section #whatyouneed .rift.selected .circle.normal
+{
+	opacity: 1;
+}
+
+
+.steamvr section #whatyouneed .circle.negative
+{
+	width: 68px;
+	height: 68px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;		
+
+	background-color: #FFFFFF;
+
+	opacity: 0;
+}
+
+.steamvr section #whatyouneed .selected .circle.normal
+{
+	opacity: 0;
+}
+
+.steamvr section #whatyouneed .selected .circle.negative
+{
+	opacity: 1;
+}
+
+
+.steamvr section #whatyouneed .circle .circleimage
+{
+	position: absolute;
+
+	width: 48px;
+	height: 48px;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	left: 9px;
+	top: 9px;
+
+}
+
+.steamvr section #whatyouneed .circletext
+{
+	position: absolute;
+
+	top: 80px;
+	width: 68px;
+	margin: 0px auto;
+
+	font-size: 8px;
+	letter-spacing: 3px;
+
+	color: #FFFFFF;
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.steamvr section #whatyouneed .computer .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_computer.png' ); }
+.steamvr section #whatyouneed .computer .circle.negative .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_computer_neg.png' ); }
+
+.steamvr section #whatyouneed .headset .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_headset.png' ); }
+.steamvr section #whatyouneed .headset .circle.negative .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_headset_neg.png' ); }
+
+.steamvr section #whatyouneed .input .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_input.png' ); }
+.steamvr section #whatyouneed .input .circle.negative .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_input_neg.png' ); }
+
+.steamvr section #whatyouneed .tracking .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_tracking.png' ); }
+.steamvr section #whatyouneed .tracking .circle.negative .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_tracking_neg.png' ); }
+
+.steamvr section #whatyouneed .room .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_room.png' ); }
+.steamvr section #whatyouneed .room .circle.negative .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_room_neg.png' ); }
+
+.steamvr section #whatyouneed .head .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_head.png' ); }
+.steamvr section #whatyouneed .head .circle.negative .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_head_neg.png' ); }
+
+.steamvr section #whatyouneed .hands .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_hands.png' ); }
+.steamvr section #whatyouneed .hands .circle.negative .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_hands_neg.png' ); }
+
+.steamvr section #whatyouneed .riftcontainer
+{
+	position: absolute;
+
+	width: 400px;
+	height: 200px;
+
+	top: 450px;
+	left: 500px;
+}
+
+.steamvr section #whatyouneed .rift.headset .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_rift_headset.png' ); }
+.steamvr section #whatyouneed .rift.input .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_rift_controller.png' ); }
+.steamvr section #whatyouneed .rift.tracking .circle.normal .circleimage { background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_rift_camera.png' ); }
+
+.steamvr section #whatyouneed .rift.headset .circle.normal .circlecontainer
+{
+	position: absolute;
+
+	left: 400px;
+	top: 100px;
+}
+
+
+.steamvr section #whatyouneed .footer
+{
+	position: absolute;
+	top: 620px;
+	left: 485px;
+
+	width: 280px;
+	height: 128px;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/need_footer.png' );
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*-------------
+
+WHAT YOU NEED
+TOUCH
+
+-------------*/
+
+html.touch .steamvr section #whatyouneed .arrow
+{
+	visibility: visible;
+}
+
+/*-------------
+
+TRY IT OUT
+
+-------------*/
+
+
+.steamvr section #tryitout.sectioncontent
+{
+	position: relative;
+
+	height: 1500px;
+
+	background: linear-gradient(to bottom, #ABC8B4 0%, #ECD0AF 25%, #EFCE8D 75%, #EECF88 100%);
+
+	overflow: hidden;
+}
+
+.steamvr section #tryitout .bubblecontainer
+{
+	position: absolute;
+
+	width: 192px;
+	height: 192px;
+
+	-webkit-transition: transform 0.2s;
+	-moz-transition: transform 0.2s;
+	-o-transition: transform 0.2s;
+	transition: transform 0.2s;
+}
+
+
+.steamvr section #tryitout a .bubblecontainer:hover
+{
+	transform: scale( 1.02 );
+}
+
+.steamvr section #tryitout .bubblecontainer .bubble
+{
+	position: absolute;
+
+	width: 184px;
+	height: 184px;
+
+	border: 2px solid #6ca8e2;
+
+	border-radius: 50%; 
+
+}
+
+.steamvr section #tryitout a .bubblecontainer .bubble
+{
+	background-color: #6ca8e2;
+
+	border: none;
+	width: 192px;
+	height: 192px;
+
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.steamvr section #tryitout a .bubblecontainer:hover .bubble
+{
+	background-color: #74b4f2;
+}
+
+.steamvr section #tryitout .bubblecontainer .label
+{
+	position: absolute;
+
+	top: 50%;
+	transform: translateY(-40%);
+
+	left: 26px;
+	width: 140px;
+
+	font-size: 15px;
+	text-transform: uppercase;
+
+	pointer-events: none;
+
+	text-align: center;
+	color: #000000;
+}
+
+
+.steamvr section #tryitout .whale
+{
+	position: absolute;
+	width: 800px;
+	height: 361px;
+	top: 220px;
+	left: 400px;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/tryitout_whale.png' );
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.steamvr section #tryitout .fish
+{
+	position: absolute;
+	width: 90px;
+	height: 61px;
+	top: 1100px;
+	left: 200px;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/tryitout_fish.png' );
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.steamvr section #tryitout .bubblecontainer.fifth .label
+{
+	transform: translateY(-70%);
+}
+
+.steamvr section #tryitout .bubblecontainer .vivelogo
+{
+	position: absolute;
+
+	width: 48px;
+	height: 48px;
+
+	top: 130px;
+	left: 70px;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/vive_white.png' );
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+.steamvr section #tryitout .fishschool
+{
+	position: absolute;
+	width: 230px;
+	height: 210px;
+	top: 1200px;
+	left: 800px;
+
+	background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/tryitout_fish_school.png' );
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.steamvr section #tryitout a .bubblecontainer .label
+{
+	color: #FFFFFF;
+}
+
+.steamvr section #tryitout .bubblecontainer.first
+{
+	top: 150px;
+	left: 200px;
+}
+
+.steamvr section #tryitout .bubblecontainer.second
+{
+	top: 650px;
+	left: 550px;
+}
+
+.steamvr section #tryitout .bubblecontainer.third
+{
+	top: 750px;
+	left: 200px;
+}
+
+.steamvr section #tryitout .bubblecontainer.fourth
+{
+	top: 900px;
+	left: 800px;
+}
+
+.steamvr section #tryitout .bubblecontainer.fifth
+{
+	top: 1100px;
+	left: 400px;
+}
+
+
+
+
+
+@media screen and (max-width: 1280px)
+{
+	html.responsive body.v6 .page_content_ctn .page_content 
+	{
+		max-width: 960px;
+		margin: 0px auto;
+	}
+
+	html.responsive .steamvr section #mainvideosection
+	{
+		width: 960px;
+		height: 540px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .mainvideo
+	{
+		width: 960px;
+		height: 540px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .gamespopup
+	{
+		height: 420px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .gameslist
+	{
+		height: 340px;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar 
+	{
+		width: 900px;
+		height: 40px;
+
+		padding: 40px 10px;
+		padding-bottom: 10px;
+
+		margin: 0px auto;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar .button
+	{
+		font-size: 12px;
+		width: 140px;
+		margin: 0px 4px;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar.secondary
+	{
+		padding-left: 612px;
+		padding-top: 0px;
+	}
+
+	html.responsive .steamvr section #howitworks
+	{
+		height: 600px;
+	}
+
+	html.responsive .steamvr section #howitworks .switchimagecontainer
+	{
+		width: 700px;
+		left: 0px;
+	}	
+
+	html.responsive .steamvr section #howitworks .image
+	{
+		background-size: contain;
+		width: 700px;
+		left: 0px;
+	}	
+
+	html.responsive .steamvr section #howitworks .circlescontainer
+	{
+		width: 200px;
+		left: 680px;
+		top: 80px;
+	}
+
+	html.responsive .steamvr section #howitworks .circlecontainer
+	{
+		left: 120px;
+	}
+
+	html.responsive .steamvr section #howitworks .captioncontainer
+	{
+		width: 200px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks.sectioncontent
+	{
+		height: 660px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .image
+	{
+		width: 900px;
+		height: 500px;
+
+		left: 80px;		
+	}
+
+	html.responsive.touch .steamvr section #howitworks .sectiontitle
+	{
+		padding-top: 10px;
+		padding-bottom: 0px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer
+	{
+		width: 900px;
+		height: 40px;
+
+		top: 560px;
+		left: 180px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow
+	{
+		position: absolute;
+
+		visibility: visible;
+
+		width: 32px;
+		height: 32px;
+
+		background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_arrow_hollow.png' );
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow:active
+	{
+		background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_arrow.png' );
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.left
+	{
+		-ms-transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.left
+	{
+		left: 20px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.right
+	{
+		left: 460px;
+	}
+
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer
+	{
+		top: 0px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame1
+	{
+		left: 80px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame2
+	{
+		left: 160px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame3
+	{
+		left: 240px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame4
+	{
+		left: 320px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame5
+	{
+		left: 400px;
+	}
+
+
+	html.responsive.touch .steamvr section #howitworks .captioncontainer
+	{
+		top: 60px;
+		left: -140px;
+
+		width: 880px;
+		height: 40px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .caption
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+
+	html.responsive .steamvr section #whyitmatters.sectioncontent
+	{
+		padding-top: 20px;
+		height: 600px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .sectiontitle
+	{
+		padding-top: 0px;
+	}
+
+
+	html.responsive .steamvr section #whyitmatters .whiteboard
+	{
+		width: 600px;
+		height: 575px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .quote
+	{
+		width: 350px;
+
+		top: 80px;
+		left: 320px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .dots
+	{
+		width: 395px;
+
+		top: 405px;
+		left: 100px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .bendy
+	{
+		margin-left: 650px;
+		top: 400px;
+
+		width: 230px;
+		height: 240px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .header
+	{
+		width: 412px;
+		height: 113px;
+
+		top: 220px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element
+	{
+		position: absolute;
+
+		width: 225px;
+		height: 150px;
+
+		top: 360px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element1
+	{
+		left: 30px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element2
+	{
+		left: 190px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element3
+	{
+		left: 300px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element4
+	{
+		left: 400px;
+	}
+
+	html.responsive .steamvr section #steam.sectioncontent
+	{
+		height: 700px;
+	}
+
+	html.responsive .steamvr section #steam .videopanel
+	{
+		width: 800px;
+		height: 450px;
+	}
+
+	html.responsive .steamvr section #whatyouneed.sectioncontent
+	{
+		padding-top: 20px;
+		height: 600px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .sectiontitle
+	{
+		padding-top: 0px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollcontainer
+	{
+		width: 340px;
+		height: 300px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollcontainer.left
+	{
+		left: 100px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollcontainer.right
+	{
+		left: 470px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingimage
+	{
+		top: -10px;
+		left: 0px;
+		width: 340px;
+		height: 300px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingimage.computer
+	{
+		margin-top: 50px;
+		height: 200px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingimage.room,
+	html.responsive .steamvr section #whatyouneed .scrollingimage.hands,
+	html.responsive .steamvr section #whatyouneed .scrollingimage.head
+	{
+		margin-top: 30px;
+		height: 200px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .verticalline
+	{
+		left: 470px;
+
+		height: 240px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingtitle
+	{
+		top: 0px;
+		left: 30px;
+		width: 300px;
+		margin: 0px auto;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingtitle.scrollon
+	{
+		top: 100px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingtitle.scrollbottom
+	{
+		top: 200px;
+		opacity: 0;
+	}
+
+	html.responsive .steamvr section #whatyouneed .circles
+	{
+		left: 70px;
+		top: 390px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .footer
+	{
+		height: 100px;
+
+		top: 500px;
+		left: 330px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .riftcontainer
+	{
+		position: absolute;
+
+		width: 400px;
+		height: 200px;
+
+		top: 350px;
+		left: 350px;
+	}
+
+	html.responsive .steamvr section #tryitout .whale
+	{
+		left: 300px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.first
+	{
+		top: 150px;
+		left: 100px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.second
+	{
+		top: 650px;
+		left: 450px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.third
+	{
+		top: 750px;
+		left: 100px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.fourth
+	{
+		top: 900px;
+		left: 650px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.fifth
+	{
+		top: 1100px;
+		left: 300px;
+	}
+
+}
+
+@media screen and (max-width: 910px)
+{
+	html.responsive body.v6 .page_content_ctn .page_content 
+	{
+		max-width: 640px;
+		margin: 0px auto;
+	}
+
+	html.responsive .steamvr section #mainvideosection
+	{
+		width: 640px;
+		height: 360px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .mainvideo
+	{
+		width: 640px;
+		height: 360px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .info
+	{
+		bottom: 40px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .gamespopup
+	{
+		height: 240px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .gameslist
+	{
+		height: 160px;
+	}
+
+	html.responsive .steamvr section #videosection.sectioncontent
+	{
+		height: 3500px;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar 
+	{
+		width: 480px;
+		height: 80px;
+
+		padding: 40px 10px;
+		margin: 0px auto;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar .button
+	{
+		font-size: 12px;
+		margin: 4px 10px;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar.secondary
+	{
+		padding-left: 230px;
+		padding-top: 0px;
+	}
+
+	html.responsive .steamvr section #videosection .videofooter
+	{
+		width: 600px;
+		margin: 10px auto 150px auto;
+	}	
+
+	html.responsive .steamvr section #videosection .videocontainer
+	{
+		width: 600px;
+		height: 338px;
+	}	
+
+	html.responsive .steamvr section #videosection .videopanel
+	{
+		width: 600px;
+		height: 338px;
+	}
+
+	html.responsive .steamvr section #videosection .videooverlaytext
+	{
+		left: 75px;
+		width: 450px;
+
+		font-size: 25px;
+		line-height: 60px;
+	}
+
+	html.responsive .steamvr section #videosection .videosectionfooter
+	{
+		margin-top: -50px;
+	}
+
+
+	html.responsive .steamvr section #whyitmatters .whiteboard
+	{
+		clip: rect(0px, 400px, 450px, 0px);
+
+		top: -500px;
+
+		width: 400px;
+		height: 450px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks.sectioncontent
+	{
+		height: 420px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .sectiontitle
+	{
+		padding-top: 0px;
+	}
+
+
+	html.responsive.touch .steamvr section #howitworks .image
+	{
+		width: 430px;
+		left: 80px;
+	}	
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer
+	{
+		top: 340px;
+		left: 160px;
+		width: 400px;
+		height: 40px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow
+	{
+		position: absolute;;
+
+		visibility: visible;
+
+		width: 26px;
+		height: 26px;
+
+		background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_arrow_hollow.png' );
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow:active
+	{
+		background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_arrow.png' );
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.left
+	{
+		-ms-transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.left
+	{
+		left: 0px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.right
+	{
+		left: 240px;
+	}
+
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer
+	{
+		top: 0px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame1
+	{
+		left: 40px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame2
+	{
+		left: 80px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame3
+	{
+		left: 120px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame4
+	{
+		left: 160px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame5
+	{
+		left: 200px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlecontainer
+	{
+		width: 16px;
+		height: 16px;
+
+		padding: 5px 5px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circle 
+	{ 
+		width: 16px;
+		height: 16px;
+
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circle.empty 
+	{ 
+		width: 12px;
+		height: 12px;
+
+		border: 2px solid #6ca8e2;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .captioncontainer
+	{
+		top: 40px;
+		left: -140px;
+
+		width: 580px;
+		height: 40px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .caption
+	{
+		width: 100%;
+		height: 100%;
+
+		font-size: 12px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters.sectioncontent
+	{
+		padding-top: 40px;
+		height: 510px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .sectiontitle
+	{
+		margin-bottom: 20px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard
+	{
+		top: -675px;
+
+		width: 390px;
+		height: 450px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .quote
+	{
+		left: 160px;
+		top: 100px;
+
+		width: 313px;
+		height: 68px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .dots
+	{
+		width: 280px;
+
+		top: 361px;
+		left: 65px;
+
+		opacity: 1;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .bendy
+	{
+		top: 400px;
+		margin-left: 50px;
+		left: 390px;
+
+		width: 151px;
+		height: 159px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .header
+	{
+		width: 309px;
+		height: 85px;
+
+		top: 240px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element
+	{
+		position: absolute;
+
+		width: 126px;
+		height: 85px;
+
+		top: 336px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element1
+	{
+		left: 25px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element2
+	{
+		left: 125px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element3
+	{
+		left: 205px;
+	}
+
+	html.responsive .steamvr section #whyitmatters .whiteboard .element4
+	{
+		left: 280px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .quote
+	{
+		opacity: 1;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard
+	{
+		top: 0px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard .element
+	{
+		opacity: 1;
+	}
+
+
+	html.responsive .steamvr section #steam.sectioncontent
+	{
+		height: 660px;
+	}
+
+	html.responsive .steamvr section #steam .videopanel
+	{
+		width: 600px;
+		height: 338px;
+	}
+
+	html.responsive .steamvr section #whatyouneed.sectioncontent
+	{
+		height: 470px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollcontainer
+	{
+		width: 280px;
+		height: 250px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollcontainer.left
+	{
+		left: 30px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollcontainer.right
+	{
+		left: 310px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingimage
+	{
+		top: 20px;
+		left: 20px;
+		width: 200px;
+		height: 200px;
+
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingimage.computer,
+	html.responsive .steamvr section #whatyouneed .scrollingimage.room,
+	html.responsive .steamvr section #whatyouneed .scrollingimage.head,
+	html.responsive .steamvr section #whatyouneed .scrollingimage.hands
+	{
+		margin-top: 30px;
+		height: 130px;
+	}
+
+
+	html.responsive .steamvr section #whatyouneed .verticalline
+	{
+		left: 310px;
+
+		height: 200px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingtitle
+	{
+		top: 40px;
+		left: 0px;
+		width: 300px;
+		margin: 0px auto;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingtitle.scrollon
+	{
+		top: 90px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .scrollingtitle.scrollbottom
+	{
+		top: 140px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .circles
+	{
+		width: 600px;
+		height: 70px;
+
+		left: 104px;
+		top: 320px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .circlecontainer
+	{
+		width: 34px;
+		height: 50px;
+
+		margin: 5px 6.75px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .arrow
+	{
+		visibility: visible;
+
+		width: 26px;
+		height: 32px;
+
+		margin-bottom: 21px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .circle
+	{
+		width: 34px;
+		height: 34px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .circle.normal
+	{
+		width: 33px;
+		height: 33px;
+
+	}
+
+	html.responsive .steamvr section #whatyouneed .rift .circle.normal 
+	{
+		width: 34px;
+		height: 34px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .circle.negative
+	{
+		width: 34px;
+		height: 34px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .circle .circleimage
+	{
+		width: 24px;
+		height: 24px;
+
+		left: 4.5px;
+		top: 4.5px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .circletext
+	{
+		top: 40px;
+		width: 34px;
+		margin: 0px auto;
+
+		font-size: 8px;
+		letter-spacing: 1px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .riftcontainer
+	{
+		position: absolute;
+
+		width: 200px;
+		height: 100px;
+
+		top: 300px;
+		left: 250px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .rift.headset .circle.normal .circlecontainer
+	{
+		left: 200px;
+		top: 50px;
+	}
+
+	html.responsive .steamvr section #whatyouneed .footer
+	{
+		top: 380px;
+		left: 242px;
+
+		width: 140px;
+		height: 64px;
+	}
+
+	html.responsive .steamvr section #tryitout.sectioncontent
+	{
+		height: 1200px;
+	}
+
+	html.responsive .steamvr section #tryitout .whale
+	{
+		top: 150px;
+		left: 200px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.first
+	{
+		top: 150px;
+		left: 100px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.second
+	{
+		top: 550px;
+		left: 400px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.third
+	{
+		top: 650px;
+		left: 100px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.fourth
+	{
+		top: 800px;
+		left: 450px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer.fifth
+	{
+		top: 900px;
+		left: 200px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer
+	{
+		width: 128px;
+		height: 128px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer .bubble
+	{
+		width: 122px;
+		height: 122px;
+
+		border: 2px solid #6ca8e2;
+	}
+
+	html.responsive .steamvr section #tryitout a .bubblecontainer .bubble
+	{
+		width: 128px;
+		height: 128px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer .label
+	{
+		top: 50%;
+		transform: translateY(-40%);
+
+		left: 14px;
+		width: 100px;
+
+		font-size: 13px;
+	}
+
+	html.responsive .steamvr section #tryitout .bubblecontainer .vivelogo
+	{
+		visibility: collapse;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	html.responsive body.v6 .page_content_ctn .page_content 
+	{
+		max-width: 360px;
+		margin: 0px auto;
+	}
+
+	html.responsive.touch .steamvr section .sectiontitle
+	{
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	html.responsive .steamvr section #mainvideosection
+	{
+		width: 320;
+		height: 200px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .mainvideo
+	{
+		width: 350px;
+		margin-top: 1px;
+		margin-left: 5px;
+		height: 200px;
+	}
+
+	html.responsive .steamvr section #mainvideosection .info
+	{
+		visibility: collapse;
+	}
+
+	html.responsive .steamvr section #videosection.sectioncontent
+	{
+		height: 2600px;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar 
+	{
+		width: 300px;
+		height: 140px;
+
+		padding: 40px 10px;
+		margin: 0px auto;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar .button
+	{
+		font-size: 12px;
+		margin: 4px 4px;
+	}
+
+	html.responsive .steamvr section #videosection .buttonbar.secondary
+	{
+		padding-left: 5px;
+		padding-top: 0px;
+
+		height: 40px;
+	}
+
+
+	html.responsive .steamvr section #videosection .videofooter
+	{
+		width: 330px;
+		margin: 10px auto 150px auto;
+	}	
+
+	html.responsive .steamvr section #videosection .videocontainer
+	{
+		width: 338px;
+		height: 190px;
+	}	
+
+	html.responsive .steamvr section #videosection .videopanel
+	{
+		width: 338px;
+		height: 190px;
+	}
+
+	html.responsive .steamvr section #videosection .videooverlaytext
+	{
+		left: 40px;
+		width: 250px;
+
+		font-size: 15px;
+		line-height: 40px;
+	}
+
+	html.responsive .steamvr section #videosection .videosectionfooter
+	{
+		margin-top: -50px;
+		width: 240px;
+	}
+
+	html.responsive .steamvr section #videosection .videosectionfooterbutton .button
+	{
+		width: 200px;
+		margin: 20px auto;
+		padding: 10px 10px;
+	}
+
+	html.responsive .steamvr section #videosection .videosectionfooterbutton .popoutbutton
+	{
+		visibility: collapse;
+	}
+
+	html.responsive .steamvr section #videosection .playingvideo .videooverlaytext
+	{
+		opacity: 1;
+	}
+
+	html.responsive.touch .steamvr section #howitworks
+	{
+		position: relative;
+
+		height: 500px;
+	}
+
+
+	html.responsive.touch .steamvr section #howitworks.sectioncontent
+	{
+		height: 380px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .sectiontitle
+	{
+		padding-top: 0px;
+	}
+
+
+	html.responsive.touch .steamvr section #howitworks .image
+	{
+		width: 322;
+		left: 0px;
+	}	
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer
+	{
+		top: 260px;
+		left: 30px;
+		width: 200px;
+		height: 40px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow
+	{
+		position: absolute;
+
+		visibility: visible;
+
+		width: 26px;
+		height: 26px;
+
+		background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_arrow_hollow.png' );
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow:active
+	{
+		background-image: url( 'http://cdn.akamai.steamstatic.com/store/promo/steamvr/howitworks_arrow.png' );
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.left
+	{
+		-ms-transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.left
+	{
+		left: 0px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .arrow.right
+	{
+		left: 240px;
+	}
+
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer
+	{
+		top: 0px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame1
+	{
+		left: 40px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame2
+	{
+		left: 80px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame3
+	{
+		left: 120px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame4
+	{
+		left: 160px;
+	}
+	html.responsive.touch .steamvr section #howitworks .circlescontainer .circlecontainer.frame5
+	{
+		left: 200px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circlecontainer
+	{
+		width: 16px;
+		height: 16px;
+
+		padding: 5px 5px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circle 
+	{ 
+		width: 16px;
+		height: 16px;
+
+	}
+
+	html.responsive.touch .steamvr section #howitworks .circle.empty 
+	{ 
+		width: 12px;
+		height: 12px;
+
+		border: 2px solid #6ca8e2;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .captioncontainer
+	{
+		top: 40px;
+		left: 0px;
+
+		width: 280px;
+		height: 40px;
+	}
+
+	html.responsive.touch .steamvr section #howitworks .caption
+	{
+		width: 100%;
+		height: 100%;
+
+		font-size: 12px;
+	}
+
+
+	html.responsive.touch .steamvr section #whyitmatters.sectioncontent
+	{
+		padding-top: 40px;
+		height: 425px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard
+	{
+		top: -675px;
+
+		width: 293px;
+		height: 338px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .quote
+	{
+		width: 234px;
+		height: 51px;
+
+		top: 80px;
+		left: 55px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .dots
+	{
+		width: 200px;
+
+		top: 268px;
+		left: 45px;
+
+		opacity: 1;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .bendy
+	{
+		visibility: collapse; /* too small, can't fit poor bendy */
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard .header
+	{
+		width: 232px;
+		height: 64px;
+
+		top: 180px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard .element
+	{
+		position: absolute;
+
+		width: 94px;
+		height: 56px;
+
+		top: 252px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard .element1
+	{
+		left: 20px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard .element2
+	{
+		left: 90px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard .element3
+	{
+		left: 145px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard .element4
+	{
+		left: 200px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .quote
+	{
+		opacity: 1;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard
+	{
+		top: 0px;
+	}
+
+	html.responsive.touch .steamvr section #whyitmatters .whiteboard .element
+	{
+		opacity: 1;
+	}
+
+	html.responsive.touch .steamvr section #steam.sectioncontent
+	{
+		height: 500px;
+	}
+
+	html.responsive.touch .steamvr section #steam .videopanel
+	{
+		width: 320px;
+		height: 200px;
+	}
+
+	html.responsive.touch .steamvr section #steam .footer
+	{
+		width: 320px;
+	}
+
+
+	html.responsive.touch .steamvr section #whatyouneed.sectioncontent
+	{
+		height: 270px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .sectiontitle
+	{
+		padding-bottom: 0px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .scrollcontainer
+	{
+		width: 140px;
+		height: 125px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .scrollcontainer.left
+	{
+		left: 15px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .scrollcontainer.right
+	{
+		left: 155px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .scrollingimage
+	{
+		top: 10px;
+		left: 10px;
+		width: 100px;
+		height: 100px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .scrollingimage.computer,
+	html.responsive.touch .steamvr section #whatyouneed .scrollingimage.room,
+	html.responsive.touch .steamvr section #whatyouneed .scrollingimage.head,
+	html.responsive.touch .steamvr section #whatyouneed .scrollingimage.hands
+	{
+		margin-top: 15px;
+		height: 65px;
+	}
+
+
+	html.responsive.touch .steamvr section #whatyouneed .verticalline
+	{
+		left: 165px;
+
+		height: 100px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .scrollingtitle
+	{
+		top: 20px;
+		left: 0px;
+		width: 150px;
+		margin: 0px auto;
+
+		font-size: 12px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .scrollingtitle.scrollon
+	{
+		top: 45px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .scrollingtitle.scrollbottom
+	{
+		top: 70px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .circles
+	{
+		width: 300px;
+		height: 35px;
+
+		left: 52px;
+		top: 180px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .circlecontainer
+	{
+		width: 17px;
+		height: 25px;
+
+		margin: 2.5px 3.375px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .arrow
+	{
+		visibility: visible;
+
+		width: 13px;
+		height: 16px;
+
+		margin-bottom: 10.5px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .circle
+	{
+		width: 17px;
+		height: 17px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .circle.normal
+	{
+		width: 16.5px;
+		height: 16.5px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .rift .circle.normal 
+	{
+		width: 17px;
+		height: 17px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .circle.negative
+	{
+		width: 17px;
+		height: 17px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .circle .circleimage
+	{
+		width: 12px;
+		height: 12px;
+
+		left: 2.25px;
+		top: 2.25px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .circletext
+	{
+		top: 20px;
+		width: 17px;
+		margin: 0px auto;
+
+		font-size: 5px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .riftcontainer
+	{
+		position: absolute;
+
+		width: 100px;
+		height: 50px;
+
+		top: 170px;
+		left: 135px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .rift.headset .circle.normal .circlecontainer
+	{
+		left: 100px;
+		top: 25px;
+	}
+
+	html.responsive.touch .steamvr section #whatyouneed .footer
+	{
+		top: 220px;
+		left: 121px;
+
+		width: 70px;
+		height: 32px;
+	}
+
+
+	html.responsive.touch .steamvr section #tryitout.sectioncontent
+	{
+		height: 700px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .whale
+	{
+		width: 400px;
+		height: 180px;
+
+		top: 150px;
+		left: 200px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer.first
+	{
+		top: 125px;
+		left: 175px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer.second
+	{
+		top: 350px;
+		left: 200px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer.third
+	{
+		top: 250px;
+		left: 100px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer.fourth
+	{
+		top: 400px;
+		left: 50px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer.fifth
+	{
+		top: 500px;
+		left: 200px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer
+	{
+		width: 64px;
+		height: 64px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer .bubble
+	{
+		width: 60px;
+		height: 60px;
+
+		border: 1px solid #6ca8e2;
+	}
+
+	html.responsive.touch .steamvr section #tryitout a .bubblecontainer .bubble
+	{
+		width: 64px;
+		height: 64px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer .label
+	{
+		top: 50%;
+		transform: translateY(-40%);
+
+		left: 7px;
+		width: 50px;
+
+		font-size: 6px;
+	}
+
+	html.responsive.touch .steamvr section #tryitout .bubblecontainer .vivelogo
+	{
+		visibility: collapse;
+	}
+
+
+	html.responsive.touch .steamvr section #videosection .videooverlay
+	{
+		opacity: 0.2;
+	}
+}
